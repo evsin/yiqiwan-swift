@@ -1,5 +1,8 @@
 # yiqiwan-swift
+
 An iOS client for http://yiqiwan.us
+
+The web project: https://github.com/metrue/nice-place-for-coding/
 
 ## TODO:
 
