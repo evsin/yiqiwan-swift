@@ -16,3 +16,5 @@ v0.2
 
 1. Show nearby places in a mapview
 2. Review place
+
+[https://github.com/haojianzong/yiqiwan-swift/blob/master/design%20materials/Cities.png]
