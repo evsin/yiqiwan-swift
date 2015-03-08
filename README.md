@@ -17,4 +17,8 @@ v0.2
 1. Show nearby places in a mapview
 2. Review place
 
-[https://github.com/haojianzong/yiqiwan-swift/blob/master/design%20materials/Cities.png]
+## Design
+
+[!Cities](https://github.com/haojianzong/yiqiwan-swift/blob/master/design%20materials/Cities.png)
+[!Places](https://github.com/haojianzong/yiqiwan-swift/blob/master/design/Places.jpg)
+[!PlaceDetail](https://github.com/haojianzong/yiqiwan-swift/blob/master/design/Places.jpg)
