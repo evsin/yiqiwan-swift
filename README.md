@@ -4,6 +4,10 @@ An iOS client for http://yiqiwan.us
 
 The web project: https://github.com/metrue/nice-place-for-coding/
 
+## About coding style
+
+The [Swift Style Guide](https://github.com/raywenderlich/swift-style-guide) of [raywenderlich.com](http://raywenderlich.com) is recommended.
+
 ## TODO:
 
 v0.1
