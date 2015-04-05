@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="124" id="d0v-hY-VWj" customClass="YQWPlaceCell" customModule="yiqiwan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="121"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d0v-hY-VWj" id="pb9-Pd-13I">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="旧天堂咖啡" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hww-2A-GQW">
+                        <rect key="frame" x="10" y="10" width="95" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OCT创意园" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fq-KW-38v">
+                        <rect key="frame" x="18" y="38" width="72" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 km" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9iu-bz-x4E">
+                        <rect key="frame" x="95" y="38" width="32" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="深圳一家比较出名的书店+咖啡，wifi速度不错，咖啡厅内有厕所，不用担心一个人离开座位太久东西失窃。消费大概在30元左右。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPi-i8-0q3">
+                        <rect key="frame" x="10" y="58" width="300" height="51"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="Mtr-rE-RC1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hww-2A-GQW" firstAttribute="leading" secondItem="pb9-Pd-13I" secondAttribute="leading" constant="10" id="1o2-2t-XMe"/>
+                    <constraint firstAttribute="bottom" secondItem="mPi-i8-0q3" secondAttribute="bottom" constant="10" id="296-iS-pQX"/>
+                    <constraint firstItem="9iu-bz-x4E" firstAttribute="top" secondItem="0fq-KW-38v" secondAttribute="top" id="4yf-9U-TZ2"/>
+                    <constraint firstItem="0fq-KW-38v" firstAttribute="top" secondItem="hww-2A-GQW" secondAttribute="bottom" constant="5" id="DWJ-Sc-ljB"/>
+                    <constraint firstItem="mPi-i8-0q3" firstAttribute="leading" secondItem="pb9-Pd-13I" secondAttribute="leading" constant="10" id="QVw-3S-zY7"/>
+                    <constraint firstItem="0fq-KW-38v" firstAttribute="leading" secondItem="pb9-Pd-13I" secondAttribute="leadingMargin" constant="10" id="nvy-SD-PTk"/>
+                    <constraint firstItem="9iu-bz-x4E" firstAttribute="leading" secondItem="0fq-KW-38v" secondAttribute="trailing" constant="5" id="p9h-f3-Lpq"/>
+                    <constraint firstItem="hww-2A-GQW" firstAttribute="top" secondItem="pb9-Pd-13I" secondAttribute="top" constant="10" id="w3k-Oa-rwS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descLabelWidthConstraint" destination="Mtr-rE-RC1" id="C5a-Fw-awT"/>
+            </connections>
+            <point key="canvasLocation" x="293.5" y="303.5"/>
+        </tableViewCell>
+    </objects>
+</document>
