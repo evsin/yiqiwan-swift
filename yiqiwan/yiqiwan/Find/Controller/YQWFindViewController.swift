@@ -73,7 +73,7 @@ extension YQWFindViewController: UITableViewDataSource {
         return 3;
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(TableViewCellIdentifiers.YQWPlaceCell, forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier(TableViewCellIdentifiers.YQWPlaceCell, forIndexPath: indexPath) as! UITableViewCell
 
         return cell;
     }
